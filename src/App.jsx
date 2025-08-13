@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="">
+    <div >
       {/* <DarkMode /> */}
       <Navbar />
       <main className="scroll-smooth">

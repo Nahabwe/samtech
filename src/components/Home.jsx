@@ -38,16 +38,14 @@ const Home = () => {
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="#services">
                 <button className="border border-black py-3 px-6 rounded-lg font-semibold  shadow-md transition duration-300 hover:bg-black hover:text-white">
-                Get Started
-              </button> 
+                  Get Started
+                </button>
               </a>
-             <a href="#services">
-
+              <a href="#services">
                 <button className="border border-black py-3 px-6 rounded-lg font-semibold shadow-md transition duration-300 hover:bg-black hover:text-white">
-                Our Services
-              </button>
-             </a>
-            
+                  Our Services
+                </button>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -90,7 +88,9 @@ const Home = () => {
                   <div>{feature.icon}</div>
                   <div className="ml-4">{feature.title}</div>
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">{feature.desc}</p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  {feature.desc}
+                </p>
               </motion.div>
             ))}
           </div>
